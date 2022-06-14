@@ -1,5 +1,3 @@
-using System;
-
 namespace Charts.Models
 {
     public class ErrorViewModel
