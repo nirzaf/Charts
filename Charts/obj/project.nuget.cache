@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2iWGpkdpg3oF55NNF5AXnmtwOYCVpMtGNKNTX9yeBov8eA7l3ZXZcrai5cz1DMZJFGCIefi4aBIPBqnrZtxR6g==",
+  "dgSpecHash": "6kwY++KLU7zfPjufwERVcdjncDE5Zgpg1H2C4DdLCj/LwXL/HWBt4SyuxmCAv7N3mk2q63gja0xe9yDwTyptvw==",
   "success": false,
   "projectFilePath": "E:\\Repos\\Articles-master\\Charts\\Charts\\Charts.csproj",
   "expectedPackageFiles": [
@@ -162,10 +162,6 @@
     "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\2.1.4\\microsoft.identitymodel.protocols.openidconnect.2.1.4.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.1.4\\microsoft.identitymodel.tokens.5.1.4.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.net.http.headers\\2.0.3\\microsoft.net.http.headers.2.0.3.nupkg.sha512",
-    "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
-    "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
-    "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
-    "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.8\\microsoft.rest.clientruntime.2.3.8.nupkg.sha512",
@@ -181,7 +177,7 @@
     "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\2.0.3\\microsoft.visualstudio.web.codegenerators.mvc.2.0.3.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\microsoft.win32.registry\\4.4.0\\microsoft.win32.registry.4.4.0.nupkg.sha512",
-    "C:\\Users\\Fazrin\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Fazrin\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\nuget.frameworks\\4.0.0\\nuget.frameworks.4.0.0.nupkg.sha512",
@@ -248,6 +244,7 @@
     "C:\\Users\\Fazrin\\.nuget\\packages\\system.interactive.async\\3.1.1\\system.interactive.async.3.1.1.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\system.io.compression\\4.3.0\\system.io.compression.4.3.0.nupkg.sha512",
+    "C:\\Users\\Fazrin\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Fazrin\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
@@ -322,7 +319,7 @@
       "message": "Detected package downgrade: Microsoft.AspNetCore from 2.0.4 to 2.0.2. Reference the package directly from the project to select a different version. \r\n Charts -> Microsoft.AspNetCore.All 2.0.9 -> Microsoft.AspNetCore (>= 2.0.4) \r\n Charts -> Microsoft.AspNetCore (>= 2.0.2)",
       "libraryId": "Microsoft.AspNetCore",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
+        "net6.0"
       ]
     },
     {
@@ -331,7 +328,7 @@
       "message": "Detected package downgrade: Microsoft.AspNetCore.Mvc from 2.0.4 to 2.0.3. Reference the package directly from the project to select a different version. \r\n Charts -> Microsoft.AspNetCore.All 2.0.9 -> Microsoft.AspNetCore.Mvc (>= 2.0.4) \r\n Charts -> Microsoft.AspNetCore.Mvc (>= 2.0.3)",
       "libraryId": "Microsoft.AspNetCore.Mvc",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
+        "net6.0"
       ]
     },
     {
@@ -340,7 +337,7 @@
       "message": "Detected package downgrade: Microsoft.AspNetCore.StaticFiles from 2.0.3 to 2.0.2. Reference the package directly from the project to select a different version. \r\n Charts -> Microsoft.AspNetCore.All 2.0.9 -> Microsoft.AspNetCore.StaticFiles (>= 2.0.3) \r\n Charts -> Microsoft.AspNetCore.StaticFiles (>= 2.0.2)",
       "libraryId": "Microsoft.AspNetCore.StaticFiles",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
+        "net6.0"
       ]
     },
     {
@@ -349,7 +346,7 @@
       "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.Design from 2.0.3 to 2.0.2. Reference the package directly from the project to select a different version. \r\n Charts -> Microsoft.AspNetCore.All 2.0.9 -> Microsoft.EntityFrameworkCore.Design (>= 2.0.3) \r\n Charts -> Microsoft.EntityFrameworkCore.Design (>= 2.0.2)",
       "libraryId": "Microsoft.EntityFrameworkCore.Design",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
+        "net6.0"
       ]
     },
     {
@@ -358,7 +355,7 @@
       "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 2.0.3 to 2.0.2. Reference the package directly from the project to select a different version. \r\n Charts -> Microsoft.AspNetCore.All 2.0.9 -> Microsoft.EntityFrameworkCore.SqlServer (>= 2.0.3) \r\n Charts -> Microsoft.EntityFrameworkCore.SqlServer (>= 2.0.2)",
       "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
+        "net6.0"
       ]
     },
     {
@@ -367,7 +364,7 @@
       "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.Tools from 2.0.3 to 2.0.2. Reference the package directly from the project to select a different version. \r\n Charts -> Microsoft.AspNetCore.All 2.0.9 -> Microsoft.EntityFrameworkCore.Tools (>= 2.0.3) \r\n Charts -> Microsoft.EntityFrameworkCore.Tools (>= 2.0.2)",
       "libraryId": "Microsoft.EntityFrameworkCore.Tools",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
+        "net6.0"
       ]
     },
     {
@@ -376,7 +373,7 @@
       "message": "Detected package downgrade: Microsoft.Extensions.Logging.Debug from 2.0.2 to 2.0.1. Reference the package directly from the project to select a different version. \r\n Charts -> Microsoft.AspNetCore.All 2.0.9 -> Microsoft.Extensions.Logging.Debug (>= 2.0.2) \r\n Charts -> Microsoft.Extensions.Logging.Debug (>= 2.0.1)",
       "libraryId": "Microsoft.Extensions.Logging.Debug",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
+        "net6.0"
       ]
     },
     {
@@ -385,7 +382,7 @@
       "message": "Detected package downgrade: Microsoft.VisualStudio.Web.BrowserLink from 2.0.3 to 2.0.2. Reference the package directly from the project to select a different version. \r\n Charts -> Microsoft.AspNetCore.All 2.0.9 -> Microsoft.VisualStudio.Web.BrowserLink (>= 2.0.3) \r\n Charts -> Microsoft.VisualStudio.Web.BrowserLink (>= 2.0.2)",
       "libraryId": "Microsoft.VisualStudio.Web.BrowserLink",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
+        "net6.0"
       ]
     }
   ]
